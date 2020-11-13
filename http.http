@@ -1,0 +1,14 @@
+### Get products
+GET http://127.0.0.1:8000/api/products
+
+### Create product
+POST http://127.0.0.1:8000/api/products
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "price": "123"
+}
+
+### Get product
+GET http://127.0.0.1:8000/api/products/123
